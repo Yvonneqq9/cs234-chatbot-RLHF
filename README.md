@@ -4,6 +4,8 @@ cs234 final project
 # Description of the project
 This is the final project for CS234 called chatbot using RLHF. We introduce a method for fine-tuning large language models through Direct Preference Optimization (DPO), a reinforcement learning technique. Our experiments show that DPO streamlines the training process, enhances computational efficiency, and delivers competitive performance. Evaluation with BLEU, ROUGE, and cosine similarity metrics confirms effective learning and convergence, although additional research is required to address observed training instability.
 
+# Running time and Equipment
+It will take 13 hours on 2*A6000 with 3 epochs, or 4 hours on 1*A100 with 1 epoch
 
 # File explanation
 RLHF_DPO.ipynb: It is the main file, focusing on fine tune the chatbot with DPO method with pairwise data
